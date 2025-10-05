@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .main {
+            border: 2px solid red;
+            width: fit-content;
+            margin: auto;
+            margin-top: 20vh;
+        }
+
+        .btn {
+            /* background-color: black; */
+            /* margin-left: 7vw; */
+        }
+        .email, .password, .btn-p, .redirect{
+            /* background-color: yellow; */
+            padding-bottom: 2vh;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form action="/login" method="POST">
+            <div class="email">
+                EMAIL:
+                <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="password">
+                <br>
+            PASSWORD:
+            <br>
+            <input type="password" name="password" id="password">
+            </div>
+            <div class="btn-p">
+            <br>
+            <input class="btn" type="submit" value="Login">
+            </div>
+        </form>
+        <div class="redirect">
+            Do now have an account?
+            <a href="/register">Register</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

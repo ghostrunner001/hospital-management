@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient</title>
+    <style>
+        .dept{
+            background-color: blueviolet;
+            height: 15px;
+            border: 2px solid BLACK;
+            padding: 2px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    Hello {{name}}
+    <a href="https://www.youtube.com/watch?v=OMOGaugKpzs&list=RDG9F8VtqNhzo&index=6">edit profile</a>
+    <a href="">HISTORY</a>
+    <a href="">Logout</a>
+
+
+    <br> 
+    <br>
+    <h1>Departments</h1>
+    <a href="/cardiology"><div class="dept">CARDIOLOGY</div> </a>
+    <br>
+    <a href="/neurology"><div class="dept">NEUROLOGY</div></a>
+    <br>
+    <a href="/orthopedics"><div class="dept">ORTHOPEDICS</div></a>
+    <br>
+    <a href="/general"><div class="dept">GENERAL</div></a>
+    <br>
+    <a href="/pediatrics"><div class="dept">PEDIATRICS</div></a>
+
+
+
+
+    <h1>Upcoming appoinentments</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Sr. No</th>
+            <th>Doctor Name</th>
+            <th>Dept</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Btn</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1001</td>
+            <td>Dr Abdul</td>
+            <td>general</td>
+            <td>24/10/2003</td>
+            <td>8:00 am - 12:00 pm</td>
+            <td><!-- Button or content here --></td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
